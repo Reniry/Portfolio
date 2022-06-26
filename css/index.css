@@ -1,0 +1,65 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.text-purple{
+    color: #7E57C2;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.color-yellow{
+    color: #cefe1a
+}
+
+.section__title::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #cefe1a;
+    margin: 10px auto 40px;
+}
+
+.text-grey{
+    color: #8e8e8e;
+}
+
+.colorhover{
+    border-radius: 5%;
+    transition: all 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.45s;
+}
+
+.colorhover:hover i{
+    color: #cefe1a
+}
+.colorhover:hover p{
+    color: #cefe1a
+}
+
+.card_hover{
+	transition: 0.4s ease-in;
+}
+
+.card_hover:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+.card_hover:before{
+    opacity: 1;
+}
+
+.color-hover-white{
+    border-radius: 5%;
+    transition: all 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.45s;
+}
+
+.color-hover-white:hover i{
+    color: #fff
+}
+
+.color-hover-white:hover p{
+    color: #fff
+}

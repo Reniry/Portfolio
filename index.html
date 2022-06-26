@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/index.css">
+
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/c2096752d1.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="bs-component">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black text-light p-4">
+              <a class="navbar-brand ms-5" href=""><img src="img/logo.png" alt=""></a>  
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto me-5">
+                  <li class="nav-item active">
+                    <a class="nav-link text-light fs-4" href="#hero">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fs-4" href="#about__me">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fs-4" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fs-4" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+    </header>
+
+    <section id="hero" class="py-5 bg-bg-1 bg-black" width="100%">
+        <div class="container py-5 my-5">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-md-6">
+                    <img src="img/presentacionn.png" srcset="img/presentacionn@2x.jpg 2x" alt="" class="w-100 m-0 aos-init aos-animate" data-aos="fade-down" data-aos-delay="0">			
+                </div>
+                <div class="col-md-6 mt-8 mt-md-0">
+                    <h1 class="fs-1 mb-6 aos-init aos-animate text-light" data-aos="fade-down" data-aos-delay="150">Hi. <strong class="text-purple fw-bold">I'm Irene Martínez</strong>				
+                    </h1>
+                    <h1 class="display-4 mb-6 text-light fw-bolder aos-init aos-animate" data-aos="fade-down" data-aos-delay="150">Frontend Developer and Web Developer.    			
+                    </h1>
+                    <p class="mb-5 fs-5 text-danger aos-init aos-animate" data-aos="fade-down" data-aos-delay="250">
+                        //Create your Web Page adapted to your business.
+                    </p>
+                    <a href="https://github.com/Reniry" class="btn btn-action-1 aos-init aos-animate" data-aos="fade-down" data-aos-delay="400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github color-white" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>				
+                    </a>
+                    <a href="https://github.com/Reniry" class="btn btn-action-1 aos-init aos-animate" data-aos="fade-down" data-aos-delay="400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin color-white" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>			
+                    </a>
+                    <a href="https://github.com/Reniry" class="btn btn-action-1 aos-init aos-animate" data-aos="fade-down" data-aos-delay="400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter color-white" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>			
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about__me" class="mx-0 bg-black py-5 py-lg-5 bg-bg-1">
+        <div class="container pb-5">
+            <h2 class="section__title text-center text-light display-6 fw-bolder">About</h2>
+            <div class="row align-items-md-center justify-content-between">
+                <div class="mb-8 mb-md-0 col-12 col-lg-6 col-xl-5 col-xxl-4">
+                    <h3 class="text-center text-grey pt-4">Who am I?</h3>
+                    <div class="d-flex justify-content-center">
+                        <img src="img/yo.jpg" srcset="img/yo@2x.jpg 2x"
+                        class="rounded-circle shadow-1-strong" width="100" height="100">
+                    </div>
+                    <h2 class="display-6 mb-6 text-center text-md-start text-light aos-init aos-animate py-3" data-aos="fade-down" data-aos-delay="250">
+                        I'm Irene Martínez, a Tech passionate and Web Developer
+                    </h2>
+                    <p class="fs-4 text-center text-md-start mb-0 text-grey aos-init aos-animate" data-aos="fade-down" data-aos-delay="500">
+                        I am a freelancer based in Valencia - Spain and i have been building noteworthy websites for the last year, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products.
+                    </p>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <h3 class="text-center text-grey">My Skills</h3>
+                    <div id="custom-id-2t4kxcni" class="py-3 carousel slide carousel-fade aos-init aos-animate" data-bs-interval="false" data-bs-touch="false" data-aos="fade-down" data-aos-delay="400">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active bg-bg-1">
+                                <div class="row justify-content-center">
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-md-7 mb-4 mb-lg-0 col-sm-10" data-aos="zoom-in" data-aos-delay="400">
+                                        <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 colorhover">
+                                            <div class=>
+                                                <i class="fa-brands fa-html5 text-grey display-3"></i>
+                                                <p class="text-grey text-center fs-2 pt-1">HTML</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-md-7 col-sm-10 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 colorhover">
+                                            <div>
+                                                <i class="fa-brands fa-js-square text-grey display-3"></i>
+                                                <p class="text-grey text-center fs-2 pt-1">JavaScript</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-md-7 col-sm-10 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 colorhover">
+                                            <div>
+                                                <i class="fa-brands fa-bootstrap text-grey display-3"></i>
+                                                <p class="text-grey text-center fs-2 pt-1">Bootstrap</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center pt-4">
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-md-7 col-sm-10 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 colorhover">
+                                            <div>
+                                                <i class="fa-brands fa-css3-alt text-grey display-3"></i>
+                                                <p class="text-grey text-center fs-2 pt-1">CSS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-md-7 col-sm-10 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 colorhover">
+                                            <div>
+                                                <i class="fa-brands fa-sass text-grey display-3"></i>
+                                                <p class="text-grey text-center fs-2 pt-1">Sass</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-md-7 col-sm-10 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 colorhover">
+                                            <div>
+                                                <i class="fa-brands fa-git-alt text-grey display-3"></i>
+                                                <p class="text-grey text-center fs-2 pt-1">GIT</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5 py-lg-5 bg-bg-1 bg-black">
+        <div class="container">
+            <div class="row justify-content-between align-items-center mb-15">
+                    <h2 class="mb-4 pb-5 mb-lg-0 aos-init aos-animate section__title text-center text-light display-6 fw-bolder" data-aos="fade-down" data-aos-delay="100">
+                        PORTFOLIO
+                    </h2>
+    
+            </div>
+            <div class="row aos-init aos-animate" data-aos="fade-down" data-aos-delay="250">
+                <div class="mb-6 col-lg-4 col-md-6 card_hover">
+                    <a href="#" class="d-block">
+                        <img src="img/portfolio.jpg" srcset="img/portfolio@2x.jpg 2x" alt="" class="w-100 mb-4 rounded-3" data-aos="fade-down" data-aos-delay="400">
+                    </a>
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <a href="#" class="d-block">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1" >
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3844 6.96912C15.4541 6.89927 15.5368 6.84386 15.628 6.80605C15.7191 6.76824 15.8168 6.74878 15.9154 6.74878C16.0141 6.74878 16.1117 6.76824 16.2029 6.80605C16.294 6.84386 16.3767 6.89927 16.4464 6.96912L20.9464 11.4691C21.0162 11.5388 21.0717 11.6216 21.1095 11.7127C21.1473 11.8038 21.1667 11.9015 21.1667 12.0001C21.1667 12.0988 21.1473 12.1965 21.1095 12.2876C21.0717 12.3787 21.0162 12.4615 20.9464 12.5311L16.4464 17.0311C16.3056 17.1719 16.1146 17.2511 15.9154 17.2511C15.7162 17.2511 15.5252 17.1719 15.3844 17.0311C15.2436 16.8903 15.1645 16.6993 15.1645 16.5001C15.1645 16.301 15.2436 16.1099 15.3844 15.9691L19.3549 12.0001L15.3844 8.03112C15.3146 7.96145 15.2591 7.87869 15.2213 7.78757C15.1835 7.69645 15.1641 7.59877 15.1641 7.50012C15.1641 7.40147 15.1835 7.30379 15.2213 7.21267C15.2591 7.12155 15.3146 7.03879 15.3844 6.96912Z">
+                                    </path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.16602 12C3.16602 11.8011 3.24503 11.6103 3.38569 11.4697C3.52634 11.329 3.7171 11.25 3.91602 11.25H19.666C19.8649 11.25 20.0557 11.329 20.1963 11.4697C20.337 11.6103 20.416 11.8011 20.416 12C20.416 12.1989 20.337 12.3897 20.1963 12.5303C20.0557 12.671 19.8649 12.75 19.666 12.75H3.91602C3.7171 12.75 3.52634 12.671 3.38569 12.5303C3.24503 12.3897 3.16602 12.1989 3.16602 12Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6 col-lg-4 col-md-6 card_hover" >
+                    <a href="#" class="d-block">
+                        <img src="img/portfolio.jpg" srcset="img/portfolio@2x.jpg 2x" alt="" class="w-100 mb-4 w-100 rounded-3" data-aos="fade-down" data-aos-delay="400">
+                    </a>
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <a href="#" class="d-block">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3844 6.96912C15.4541 6.89927 15.5368 6.84386 15.628 6.80605C15.7191 6.76824 15.8168 6.74878 15.9154 6.74878C16.0141 6.74878 16.1117 6.76824 16.2029 6.80605C16.294 6.84386 16.3767 6.89927 16.4464 6.96912L20.9464 11.4691C21.0162 11.5388 21.0717 11.6216 21.1095 11.7127C21.1473 11.8038 21.1667 11.9015 21.1667 12.0001C21.1667 12.0988 21.1473 12.1965 21.1095 12.2876C21.0717 12.3787 21.0162 12.4615 20.9464 12.5311L16.4464 17.0311C16.3056 17.1719 16.1146 17.2511 15.9154 17.2511C15.7162 17.2511 15.5252 17.1719 15.3844 17.0311C15.2436 16.8903 15.1645 16.6993 15.1645 16.5001C15.1645 16.301 15.2436 16.1099 15.3844 15.9691L19.3549 12.0001L15.3844 8.03112C15.3146 7.96145 15.2591 7.87869 15.2213 7.78757C15.1835 7.69645 15.1641 7.59877 15.1641 7.50012C15.1641 7.40147 15.1835 7.30379 15.2213 7.21267C15.2591 7.12155 15.3146 7.03879 15.3844 6.96912Z">
+                                    </path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.16602 12C3.16602 11.8011 3.24503 11.6103 3.38569 11.4697C3.52634 11.329 3.7171 11.25 3.91602 11.25H19.666C19.8649 11.25 20.0557 11.329 20.1963 11.4697C20.337 11.6103 20.416 11.8011 20.416 12C20.416 12.1989 20.337 12.3897 20.1963 12.5303C20.0557 12.671 19.8649 12.75 19.666 12.75H3.91602C3.7171 12.75 3.52634 12.671 3.38569 12.5303C3.24503 12.3897 3.16602 12.1989 3.16602 12Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6 col-lg-4 col-md-6 card_hover">
+                    <a href="#" class="d-block">
+                        <img src="img/portfolio.jpg" srcset="img/portfolio@2x.jpg 2x" alt="" class="w-100 mb-4 w-100 rounded-3" data-aos="fade-down" data-aos-delay="400">
+                    </a>
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <a href="#" class="d-block">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3844 6.96912C15.4541 6.89927 15.5368 6.84386 15.628 6.80605C15.7191 6.76824 15.8168 6.74878 15.9154 6.74878C16.0141 6.74878 16.1117 6.76824 16.2029 6.80605C16.294 6.84386 16.3767 6.89927 16.4464 6.96912L20.9464 11.4691C21.0162 11.5388 21.0717 11.6216 21.1095 11.7127C21.1473 11.8038 21.1667 11.9015 21.1667 12.0001C21.1667 12.0988 21.1473 12.1965 21.1095 12.2876C21.0717 12.3787 21.0162 12.4615 20.9464 12.5311L16.4464 17.0311C16.3056 17.1719 16.1146 17.2511 15.9154 17.2511C15.7162 17.2511 15.5252 17.1719 15.3844 17.0311C15.2436 16.8903 15.1645 16.6993 15.1645 16.5001C15.1645 16.301 15.2436 16.1099 15.3844 15.9691L19.3549 12.0001L15.3844 8.03112C15.3146 7.96145 15.2591 7.87869 15.2213 7.78757C15.1835 7.69645 15.1641 7.59877 15.1641 7.50012C15.1641 7.40147 15.1835 7.30379 15.2213 7.21267C15.2591 7.12155 15.3146 7.03879 15.3844 6.96912Z">
+                                    </path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.16602 12C3.16602 11.8011 3.24503 11.6103 3.38569 11.4697C3.52634 11.329 3.7171 11.25 3.91602 11.25H19.666C19.8649 11.25 20.0557 11.329 20.1963 11.4697C20.337 11.6103 20.416 11.8011 20.416 12C20.416 12.1989 20.337 12.3897 20.1963 12.5303C20.0557 12.671 19.8649 12.75 19.666 12.75H3.91602C3.7171 12.75 3.52634 12.671 3.38569 12.5303C3.24503 12.3897 3.16602 12.1989 3.16602 12Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6 col-lg-4 col-md-6 mb-lg-0 card_hover">
+                    <a href="#" class="d-block">
+                        <img src="img/portfolio.jpg" srcset="img/portfolio@2x.jpg 2x" alt="" class="w-100 mb-4 w-100 rounded-3" data-aos="fade-up" data-aos-delay="400">
+                    </a>
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <a href="#" class="d-block">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3844 6.96912C15.4541 6.89927 15.5368 6.84386 15.628 6.80605C15.7191 6.76824 15.8168 6.74878 15.9154 6.74878C16.0141 6.74878 16.1117 6.76824 16.2029 6.80605C16.294 6.84386 16.3767 6.89927 16.4464 6.96912L20.9464 11.4691C21.0162 11.5388 21.0717 11.6216 21.1095 11.7127C21.1473 11.8038 21.1667 11.9015 21.1667 12.0001C21.1667 12.0988 21.1473 12.1965 21.1095 12.2876C21.0717 12.3787 21.0162 12.4615 20.9464 12.5311L16.4464 17.0311C16.3056 17.1719 16.1146 17.2511 15.9154 17.2511C15.7162 17.2511 15.5252 17.1719 15.3844 17.0311C15.2436 16.8903 15.1645 16.6993 15.1645 16.5001C15.1645 16.301 15.2436 16.1099 15.3844 15.9691L19.3549 12.0001L15.3844 8.03112C15.3146 7.96145 15.2591 7.87869 15.2213 7.78757C15.1835 7.69645 15.1641 7.59877 15.1641 7.50012C15.1641 7.40147 15.1835 7.30379 15.2213 7.21267C15.2591 7.12155 15.3146 7.03879 15.3844 6.96912Z">
+                                    </path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.16602 12C3.16602 11.8011 3.24503 11.6103 3.38569 11.4697C3.52634 11.329 3.7171 11.25 3.91602 11.25H19.666C19.8649 11.25 20.0557 11.329 20.1963 11.4697C20.337 11.6103 20.416 11.8011 20.416 12C20.416 12.1989 20.337 12.3897 20.1963 12.5303C20.0557 12.671 19.8649 12.75 19.666 12.75H3.91602C3.7171 12.75 3.52634 12.671 3.38569 12.5303C3.24503 12.3897 3.16602 12.1989 3.16602 12Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6 col-lg-4 col-md-6 mb-md-0 card_hover">
+                    <a href="#" class="d-block">
+                        <img src="img/portfolio.jpg" srcset="img/portfolio@2x.jpg 2x" alt="" class="w-100 mb-4 w-100 rounded-3" data-aos="fade-up" data-aos-delay="400">
+                    </a>
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <a href="#" class="d-block">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3844 6.96912C15.4541 6.89927 15.5368 6.84386 15.628 6.80605C15.7191 6.76824 15.8168 6.74878 15.9154 6.74878C16.0141 6.74878 16.1117 6.76824 16.2029 6.80605C16.294 6.84386 16.3767 6.89927 16.4464 6.96912L20.9464 11.4691C21.0162 11.5388 21.0717 11.6216 21.1095 11.7127C21.1473 11.8038 21.1667 11.9015 21.1667 12.0001C21.1667 12.0988 21.1473 12.1965 21.1095 12.2876C21.0717 12.3787 21.0162 12.4615 20.9464 12.5311L16.4464 17.0311C16.3056 17.1719 16.1146 17.2511 15.9154 17.2511C15.7162 17.2511 15.5252 17.1719 15.3844 17.0311C15.2436 16.8903 15.1645 16.6993 15.1645 16.5001C15.1645 16.301 15.2436 16.1099 15.3844 15.9691L19.3549 12.0001L15.3844 8.03112C15.3146 7.96145 15.2591 7.87869 15.2213 7.78757C15.1835 7.69645 15.1641 7.59877 15.1641 7.50012C15.1641 7.40147 15.1835 7.30379 15.2213 7.21267C15.2591 7.12155 15.3146 7.03879 15.3844 6.96912Z">
+                                    </path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.16602 12C3.16602 11.8011 3.24503 11.6103 3.38569 11.4697C3.52634 11.329 3.7171 11.25 3.91602 11.25H19.666C19.8649 11.25 20.0557 11.329 20.1963 11.4697C20.337 11.6103 20.416 11.8011 20.416 12C20.416 12.1989 20.337 12.3897 20.1963 12.5303C20.0557 12.671 19.8649 12.75 19.666 12.75H3.91602C3.7171 12.75 3.52634 12.671 3.38569 12.5303C3.24503 12.3897 3.16602 12.1989 3.16602 12Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 card_hover">
+                    <a href="#" class="d-block">
+                        <img src="img/portfolio.jpg" srcset="img/portfolio@2x.jpg 2x" alt="" class="w-100 mb-4 w-100 rounded-3" data-aos="fade-up" data-aos-delay="400">
+                    </a>
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <a href="#" class="d-block">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3844 6.96912C15.4541 6.89927 15.5368 6.84386 15.628 6.80605C15.7191 6.76824 15.8168 6.74878 15.9154 6.74878C16.0141 6.74878 16.1117 6.76824 16.2029 6.80605C16.294 6.84386 16.3767 6.89927 16.4464 6.96912L20.9464 11.4691C21.0162 11.5388 21.0717 11.6216 21.1095 11.7127C21.1473 11.8038 21.1667 11.9015 21.1667 12.0001C21.1667 12.0988 21.1473 12.1965 21.1095 12.2876C21.0717 12.3787 21.0162 12.4615 20.9464 12.5311L16.4464 17.0311C16.3056 17.1719 16.1146 17.2511 15.9154 17.2511C15.7162 17.2511 15.5252 17.1719 15.3844 17.0311C15.2436 16.8903 15.1645 16.6993 15.1645 16.5001C15.1645 16.301 15.2436 16.1099 15.3844 15.9691L19.3549 12.0001L15.3844 8.03112C15.3146 7.96145 15.2591 7.87869 15.2213 7.78757C15.1835 7.69645 15.1641 7.59877 15.1641 7.50012C15.1641 7.40147 15.1835 7.30379 15.2213 7.21267C15.2591 7.12155 15.3146 7.03879 15.3844 6.96912Z">
+                                    </path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.16602 12C3.16602 11.8011 3.24503 11.6103 3.38569 11.4697C3.52634 11.329 3.7171 11.25 3.91602 11.25H19.666C19.8649 11.25 20.0557 11.329 20.1963 11.4697C20.337 11.6103 20.416 11.8011 20.416 12C20.416 12.1989 20.337 12.3897 20.1963 12.5303C20.0557 12.671 19.8649 12.75 19.666 12.75H3.91602C3.7171 12.75 3.52634 12.671 3.38569 12.5303C3.24503 12.3897 3.16602 12.1989 3.16602 12Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-black">
+        <div class="container pb-5">
+            <h2 class="section__title text-center text-light display-6 fw-bolder">CONTACT</h2>
+            <div class="row align-items-md-center justify-content-between">
+                <div class="col-12">
+
+                    <div id="custom-id-2t4kxcni" class="py-3 carousel slide carousel-fade aos-init aos-animate" data-bs-interval="false" data-bs-touch="false" data-aos="fade-down" data-aos-delay="400">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active bg-bg-1">
+                                <div class="row justify-content-center">
+                                    <div class="mb-8 pb-lg-4 col-lg-4 col-6 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <a href="tel:+34618253497" class="text-decoration-none">
+                                            <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 color-hover-white">
+                                                <div>
+                                                    <i class="fa-solid fa-mobile text-grey display-3"></i>
+                                                    <p class="text-grey text-center fs-3 pt-1">Phone Me</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="mb-8 pb-lg-4 col-lg-4 col-6 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <a href="mailto:irene.md00@gmail.com" class="text-decoration-none">
+                                            <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 color-hover-white">
+                                                <div>
+                                                    <i class="fa-solid fa-paper-plane text-grey display-3"></i>
+                                                    <p class="text-grey text-center fs-3 pt-1">Mail Me</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="mb-8 pb-lg-4 col-lg-4 col-6 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <a href="https://wa.me/34601500660" class="text-decoration-none">
+                                            <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 color-hover-white">
+                                                <div>
+                                                    <i class="fa-brands fa-whatsapp text-grey display-3"></i>
+                                                    <p class="text-grey text-center fs-3 pt-1">Text Me</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-6 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <a href="https://github.com/Reniry" class="text-decoration-none">
+                                            <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 color-hover-white">
+                                                <div>
+                                                    <i class="fa-brands fa-github text-grey display-3"></i>
+                                                    <p class="text-grey text-center fs-3 pt-1">Follow Me</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-6 col-sm-10 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <a href="https://twitter.com/_Reniry" class="text-decoration-none">
+                                            <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 color-hover-white">
+                                                <div>
+                                                    <i class="fa-brands fa-twitter text-grey display-3"></i>
+                                                    <p class="text-grey text-center fs-3 pt-1">Follow Me</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="mb-8 mb-lg-0 col-lg-4 col-6 mb-4 mb-lg-0 " data-aos="zoom-in" data-aos-delay="400">
+                                        <a href="https://www.linkedin.com/in/irene-mart%C3%ADnez-david-b68471243/" class="text-decoration-none">
+                                            <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 w-100 p-5 bg-dark rounded-2 color-hover-white">
+                                                <div>
+                                                    <i class="fa-brands fa-linkedin text-grey display-3"></i>
+                                                    <p class="text-grey text-center fs-3 pt-1">Contact Me</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-black pb-3">
+        <div class="container bg-black">
+          <p class="p-5 text-center text-light">
+            Copyright © 2020. <a href="#" class="text-decoration-none text-light3">@irenemartinez</a> <br>
+            All Rights Reserved
+          </p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    </body>
+</html>
